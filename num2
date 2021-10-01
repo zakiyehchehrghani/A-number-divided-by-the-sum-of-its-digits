@@ -1,0 +1,11 @@
+i=11
+answer="answer is:"
+while i<=99:
+    a=str(i)
+    y=int(a[0])
+    d=int(a[1])
+    sum=y+d
+    if i % sum == 0:
+        answer = answer + "," + str(i)
+    i = i + 1
+print(answer)
